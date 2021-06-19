@@ -1,0 +1,59 @@
+:root {
+
+}
+body {
+background-color: #fff;
+color: #757575;
+}
+.list {
+    list-style: none;
+}
+/* Site header*/
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.main-menu .link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.main-menu .link:hover,
+.main-menu .link:focus {
+    color: #2196F3;
+}
+.main-menu .link.current {
+    color: #2196F3;
+}
+
+.header-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+/*Hero*/
+.hero-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+/*Section*/
+.section-title {
+    color: #212121;
+}
+/*Bebefits*/
+.benefits .title {
+    color: #212121;
+}
