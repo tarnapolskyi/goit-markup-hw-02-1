@@ -1,59 +1,168 @@
 :root {
-
+  --main-font: Roboto, sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
 }
 body {
-background-color: #fff;
-color: #757575;
+  background-color: #fff;
+  color: #757575;
+  font-family: var(--main-font);
+  font-size: 14px;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
-/* Site header*/
+/* ================ Site header ================== */
 .logo {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+.accent {
+  color: var(--accent-color);
 }
 .main-menu .link {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
 }
 .main-menu .link:hover,
 .main-menu .link:focus {
-    color: #2196F3;
+  color: var(--accent-color);
 }
 .main-menu .link.current {
-    color: #2196F3;
+  color: var(--accent-color);
+}
+.header-contacts .link {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
 }
 
-.header-contacts {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
+/* ================  Hero  ================== */
+.hero-section {
+  background: #2f303a;
 }
-/*Hero*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
 .hero-button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  font-family: inherit;
+  cursor: pointer;
 }
-/*Section*/
+/* ================ Section ================== */
 .section-title {
-    color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-/*Bebefits*/
+
+/* ================ Benefits ================== */
 .benefits .title {
-    color: #212121;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+/* ================ Our team section ================== */
+.our-team-section {
+  background-color: #f5f4fa;
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+/* ================ Footer ================== */
+.footer-section {
+  background: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+}
+.address .link {
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+   text-decoration: none;
+  color: #ffffff;
+ 
+}
+.address .link:hover,
+.sddress .link:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ================ Portfolio page ================== */
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  cursor: pointer;
+  color: #212121;
+  background-color: #f5f4fa;
+
+}
+.nav-list:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.selected {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.porfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.porfolio-item-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
